@@ -1,2 +1,6 @@
 npx create-react-app my-ironwood-dating-app
 cd my-ironwood-dating-app
+mkdir backend
+cd backend
+npm init -y
+npm install express cors body-parser stripe dotenv
